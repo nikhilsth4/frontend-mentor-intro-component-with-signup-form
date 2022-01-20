@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="login">
+        <div class="login__description">
+          <h2>Learn to code by watching others</h2>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="login__form">
+          <div class="header">
+            <h3>Try it free 7 days <span>then $20/mo. thereafter</span></h3>
+          </div>
+          <div class="card">
+            <form class="form">
+              <div class="form__group">
+                <div class="form__input">
+                  <input
+                    type="text"
+                    class="form__control"
+                    placeholder="First Name"
+                  />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    class="error__icon"
+                  />
+                </div>
+                <p class="error__text">First Name is required</p>
+              </div>
+              <div class="form__group">
+                <div class="form__input">
+                  <input
+                    type="text"
+                    class="form__control"
+                    placeholder="Last Name"
+                  />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    class="error__icon"
+                  />
+                </div>
+                <p class="error__text">First Name is required</p>
+              </div>
+              <div class="form__group">
+                <div class="form__input">
+                  <input
+                    type="text"
+                    class="form__control"
+                    placeholder="Email Address"
+                  />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    class="error__icon"
+                  />
+                </div>
+                <p class="error__text">Email Address is required</p>
+              </div>
+              <div class="form__group">
+                <div class="form__input">
+                  <input
+                    type="text"
+                    class="form__control"
+                    placeholder="Password"
+                  />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    class="error__icon"
+                  />
+                </div>
+                <p class="error__text">First Name is required</p>
+              </div>
+
+              <button
+                type="submit"
+                class="button button--secondary form__submit"
+              >
+                Claim your free trial
+              </button>
+              <p class="form__terms">
+                By clicking the button, you are agreeing to our
+                <b class="text--primary">Terms and Services</b>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
